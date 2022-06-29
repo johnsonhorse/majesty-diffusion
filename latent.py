@@ -172,12 +172,6 @@ def main(argv):
     #        dest="init_noise",
     #    )
     parser.add_argument(
-        "--enable_aesthetic_embeddings",
-        help="Experimental aesthetic embeddings, work only with OpenAI ViT-B/32 and ViT-L/14",
-        dest="experimental_aesthetic_embeddings",
-        action="store_true",
-    )
-    parser.add_argument(
         "--aesthetic_embeddings_weight",
         help="How much you want experimental aesthetic embeddings to influence your result",
         type=float,
@@ -190,6 +184,12 @@ def main(argv):
         type=int,
         default=8,
         dest="experimental_aesthetic_embeddings_score",
+    )
+    parser.add_argument(
+        "--disable_aesthetic_embeddings",
+        help="Disables experimental aesthetic embeddings, only relevant with OpenAI ViT-B/32 and ViT-L/14",
+        dest="experimental_aesthetic_embeddings",
+        action="store_false",
     )
 
     args = parser.parse_args()
