@@ -582,7 +582,7 @@ def cond_fn(x, t):
         # rx_in_grad = torch.zeros_like(x_in)
         for i in clip_list:
             make_cutouts[i] = MakeCutouts(
-                clip_size[i],
+                clip_size[i][0] if type(clip_size[i]) is tuple else clip_size[i],
                 Overview=cut_overview[t],
                 InnerCrop=cut_innercut[t],
                 IC_Size_Pow=cut_ic_pow,
