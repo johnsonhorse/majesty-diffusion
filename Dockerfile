@@ -7,7 +7,7 @@ RUN apt-get update \
 RUN mkdir -p /src
 WORKDIR /src
 
-RUN git clone https://github.com/multimodalart/latent-diffusion --branch 1.4
+RUN git clone https://github.com/multimodalart/latent-diffusion --branch 1.6
 RUN git clone https://github.com/CompVis/taming-transformers
 RUN git clone https://github.com/TencentARC/GFPGAN
 RUN git lfs clone https://github.com/LAION-AI/aesthetic-predictor
@@ -35,10 +35,10 @@ RUN python Multi-Modal-Comparators/src/mmc/napm_installs/__init__.py
 
 RUN git lfs clone https://huggingface.co/datasets/multimodalart/latent-majesty-diffusion-settings
 
-VOLUME [ "/src/models" ]
+VOLUME [ "/src/outputs" ]
 VOLUME [ "/root/.cache" ]
 
 COPY *.py ./
 COPY *.ipynb ./
 
-ENTRYPOINT ["python", "latent.py"]
+ENTRYPOINT ["python", "latent.py", "--model_path", "/root/.cache/majesty-diffusion", "--model_source", "https://models.nmb.ai/majesty"]
