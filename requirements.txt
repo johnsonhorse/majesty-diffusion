@@ -1,0 +1,209 @@
+absl-py==1.1.0
+addict==2.4.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+antlr4-python3-runtime==4.9.3
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+astunparse==1.6.3
+async-timeout==4.0.2
+attrs==21.4.0
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+basicsr==1.3.5
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1631874778482/work
+bleach==5.0.0
+brotlipy==0.7.0
+CacheControl==0.12.11
+cachetools==5.2.0
+cachy==0.3.0
+certifi==2021.10.8
+cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
+chardet @ file:///tmp/build/80754af9/chardet_1607706746162/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+cleo==0.8.1
+click==8.1.3
+clikit==0.6.2
+clip @ git+https://github.com/openai/CLIP@b46f5ac7587d2e1862f8b7b1573179d80dcdd620
+conda==4.11.0
+conda-build==3.21.7
+conda-content-trust @ file:///tmp/build/80754af9/conda-content-trust_1617045594566/work
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262148928/work
+crashtest==0.3.1
+cryptography @ file:///tmp/build/80754af9/cryptography_1639400846433/work
+cycler==0.11.0
+debugpy==1.6.0
+DeCLIP @ git+https://github.com/pytti-tools/DeCLIP@ee3385f646fc81d022369aea9c12c14e81a02246
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+defusedxml==0.7.1
+distlib==0.3.4
+dnspython==2.2.1
+dotmap==1.3.30
+einops==0.4.1
+entrypoints==0.4
+facexlib==0.2.3
+fastjsonschema==2.15.3
+filelock @ file:///opt/conda/conda-bld/filelock_1642510437405/work
+filterpy==1.4.5
+flatbuffers==1.12
+fonttools==4.33.3
+frozenlist==1.3.0
+fsspec==2022.5.0
+ftfy==6.1.1
+future==0.18.2
+gast==0.4.0
+gdown==4.4.0
+gfpgan==1.3.2
+glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
+google-auth==2.8.0
+google-auth-oauthlib==0.4.6
+google-pasta==0.2.0
+grpcio==1.46.3
+h5py==3.7.0
+html5lib==1.1
+huggingface-hub==0.7.0
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+imageio==2.19.3
+importlib-metadata==4.11.4
+importlib-resources==5.7.1
+ipykernel==6.15.0
+ipython @ file:///tmp/build/80754af9/ipython_1643818147236/work
+ipython-genutils==0.2.0
+ipywidgets==7.7.0
+jedi @ file:///tmp/build/80754af9/jedi_1644315233700/work
+jeepney==0.8.0
+Jinja2==3.1.2
+joblib==1.1.0
+jsonschema==4.6.0
+jupyter-client==7.3.4
+jupyter-core==4.10.0
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==1.1.0
+kelip @ git+https://github.com/navervision/KELIP.git@a9af5a261baaf95545837235bffe532a56e4e4ca
+keras==2.9.0
+Keras-Preprocessing==1.1.2
+keyring==23.6.0
+kiwisolver==1.4.3
+kornia==0.6.5
+libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
+libclang==14.0.1
+llvmlite==0.38.1
+lmdb==1.3.0
+lockfile==0.12.2
+loguru==0.6.0
+lpips==0.1.4
+Markdown==3.3.7
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621528148836/work
+matplotlib==3.5.2
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mistune==0.8.4
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186064646/work
+mkl-service==2.4.0
+mmc @ file:///src/Multi-Modal-Comparators/dist/mmc-0.1.0-py3-none-any.whl
+msgpack==1.0.4
+multidict==6.0.2
+napm==0.2.1
+nbclient==0.6.4
+nbconvert==6.5.0
+nbformat==5.4.0
+nest-asyncio==1.5.5
+networkx==2.8.4
+nltk==3.7
+notebook==6.4.12
+numba==0.55.2
+numpy==1.20.3
+oauthlib==3.2.0
+omegaconf==2.2.2
+open-clip-torch @ git+https://github.com/mlfoundations/open_clip@fb58d4bb1e687fe964f3c0fa4913245aeddb9bfd
+opencv-python==4.6.0.66
+opt-einsum==3.3.0
+packaging==20.9
+pandocfilters==1.5.0
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pastel==0.2.1
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==7.2.0
+piq==0.7.0
+pkginfo @ file:///tmp/build/80754af9/pkginfo_1643162084911/work
+platformdirs==2.5.2
+poetry==1.1.13
+poetry-core==1.0.8
+prometheus-client==0.14.1
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+protobuf==3.19.4
+psutil @ file:///tmp/build/80754af9/psutil_1612298023621/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pyDeprecate==0.3.2
+Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
+pylev==1.4.0
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
+pyparsing==3.0.9
+pyrsistent==0.18.1
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work
+python-dateutil==2.8.2
+python-etcd==0.4.5
+pytorch-lightning==1.6.4
+pytz==2021.3
+PyWavelets==1.3.0
+PyYAML==6.0
+pyzmq==23.1.0
+realesrgan==0.2.5.0
+regex==2022.6.2
+requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
+requests-oauthlib==1.3.1
+requests-toolbelt==0.9.1
+resize-right==0.0.2
+rsa==4.8
+ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016699510/work
+scikit-image==0.19.3
+scikit-learn==1.1.1
+scipy==1.8.1
+SecretStorage==3.3.2
+Send2Trash==1.8.0
+sentence-transformers==2.2.0
+sentencepiece==0.1.96
+shellingham==1.4.0
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+-e git+https://github.com/CompVis/taming-transformers@24268930bf1dce879235a7fddd0b2355b84d7ea6#egg=taming_transformers
+tb-nightly==2.10.0a20220615
+tensorboard==2.9.1
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorflow==2.9.1
+tensorflow-estimator==2.9.0
+tensorflow-io-gcs-filesystem==0.26.0
+termcolor==1.1.0
+terminado==0.15.0
+threadpoolctl==3.1.0
+tifffile==2022.5.4
+timm==0.5.4
+tinycss2==1.1.1
+tokenizers==0.12.1
+tomlkit==0.11.0
+torch==1.11.0
+torch-fidelity==0.3.0
+torchelastic==0.2.2
+torchmetrics==0.9.1
+torchtext==0.12.0
+torchvision==0.12.0
+tornado==6.1
+tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
+traitlets==5.2.2.post1
+transformers==4.19.4
+typing_extensions==4.2.0
+urllib3==1.26.7
+virtualenv==20.14.1
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webencodings==0.5.1
+Werkzeug==2.1.2
+widgetsnbextension==3.6.0
+wrapt==1.14.1
+yapf==0.32.0
+yarl==1.7.2
+zipp==3.8.0
